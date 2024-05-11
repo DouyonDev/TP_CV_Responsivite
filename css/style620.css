@@ -1,0 +1,47 @@
+:root {
+    --couleur-principale: #583EFF; /* Définition de la variable --couleur-principale */
+}
+@media (max-width: 620px) {
+    .identi{
+        color: white;
+    }
+    .Pren_Nom{
+        font-weight: bold;
+        font-size: 20px;
+        position: relative;
+        top: 20px;
+    }
+    .Profession{
+        font-size: 12px;
+        position: relative;
+        top: 20px;
+    }
+    .contact{
+        color: white;
+        background-color: var(--couleur-principale);
+        border-radius: 50px;
+    }
+    .contact1{
+        font-size: 9px;    
+    }
+    table{
+        width: 300px;
+    }
+    .contact2{
+        font-size: 6px;
+    }
+    .icon_phone{
+        width: 15px;
+        height: 15px;
+        position: relative;
+        top: 30px;
+        right: 15px;
+    }
+    .icon_mail{
+        width: 15px;
+        height: 15px;
+        position: relative;
+        top: 30px;
+        left: 92px;
+    }
+}

@@ -1,0 +1,68 @@
+:root {
+    --couleur-principale: #583EFF; /* Définition de la variable --couleur-principale */
+}
+/* Responsivité */
+
+@media (max-width: 768px) {
+    #PageA4 {
+        width: 90%; 
+        height: auto; 
+        padding: 15px; 
+    }
+    .container {
+        display: block;
+        border-left: 2px var(--couleur-principale) solid;
+    }
+    .item{
+        padding: 25px;
+        box-shadow: 0px 0px 2px 2px rgba(2, 37, 235, 0.397);
+        margin-bottom: 35px;
+        border-radius: 15px;
+    }
+    .trait{
+        display: none;
+    }
+    /*Deuxieme trait Stage BM - ITE*/
+    .trait2{
+        display: none;
+    }
+    /*Leurs points en haut*/
+    .trait::before,
+    .trait2::before{
+        display: none;
+    }
+    /*Leurs points en bas*/
+    .trait::after,
+    .trait2::after{
+        display: none;
+    }
+    /*Troisieme trait ITE - Reparation d'ordinateurs*/
+    .trait2_2{
+        display: none;
+    }
+    /*Le point en bas*/
+    .trait2_2::after{
+        display: none;
+    }
+    /*Les traits et points à droite*/
+    .trait_right{
+        display: none;
+    }
+    .trait2_right{
+        display: none;
+    }
+    .trait2_2_right{
+        display: none;
+    }
+    .trait2_2_right::after{
+        display: none;
+    }
+    .trait_right::before,
+    .trait2_right::before{
+        display: none;
+    }
+    .trait_right::after,
+    .trait2_right::after{
+        display: none;
+    }
+}
